@@ -51,9 +51,11 @@ public class SimpleLogger {
      * Complete the below code that requires your implementation
      * If necessary, you can make your own methods or classes so that the corresponding tests are passed
      */
+    
+    private static final SimpleLogger INSTANCE = new SimpleLogger();
 
     public static SimpleLogger getInstance() {
-        return null;
+        return INSTANCE;
     }
 
     /**
