@@ -10,9 +10,10 @@ import problem2.wheel.Wheel;
 /**
  * ==============BEGIN==============
  * Complete the below code that requires your implementation
- * If necessary, you can make your own methods or classes so that the corresponding tests are passed
+ * If necessary, you can make your own methods or classes so that the
+ * corresponding tests are passed
  */
-public class CarBuilder implements Builder{
+public class CarBuilder implements Builder {
     private CarPartsFactory factory;
     private Car car;
 
@@ -62,6 +63,7 @@ public class CarBuilder implements Builder{
     @Override
     public void reset() {
         car = new Car();
+        car.setCompanyName(factory.getCompanyName());
     }
 }
 /**

@@ -21,42 +21,43 @@ public class Car {
     private CompanyName companyName;
 
     public Car() {
-        this.doors = new ArrayList<>();
-        this.wheels = new ArrayList<>();
-        this.roof = null;
-        this.color = Color.BLACK;
+        doors = new ArrayList<>();
+        wheels = new ArrayList<>();
+        roof = null;
+        color = Color.BLACK;
+        companyName = null;
     }
 
     public int numWheels() {
-        return this.wheels.size();
+        return wheels.size();
     }
 
     public int numDoors() {
-        return this.doors.size();
+        return doors.size();
     }
 
     public int numRoofs() {
-        return this.roof == null ? 0 : 1;
+        return roof == null ? 0 : 1;
     }
 
     public Color getColor() {
-        return this.color;
+        return color;
     }
 
     public CompanyName getCompanyName() {
-        return this.companyName;
+        return companyName;
     }
 
     public List<Door> getDoors() {
-        return this.doors;
+        return doors;
     }
 
     public List<Wheel> getWheels() {
-        return this.wheels;
+        return wheels;
     }
 
     public Roof getRoof() {
-        return this.roof;
+        return roof;
     }
     
     public void setDoors(List<Door> doors) {

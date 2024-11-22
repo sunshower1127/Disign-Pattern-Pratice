@@ -17,7 +17,7 @@ public class TeslaPartsFactory implements CarPartsFactory {
     CompanyName companyName;
 
     public TeslaPartsFactory() {
-        this.companyName = CompanyName.TESLA;
+        companyName = CompanyName.TESLA;
     }
 
     public CompanyName getCompanyName() {

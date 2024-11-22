@@ -17,7 +17,7 @@ public class HyundaiPartsFactory implements CarPartsFactory {
     CompanyName companyName;
 
     public HyundaiPartsFactory() {
-        this.companyName = CompanyName.HYUNDAI;
+        companyName = CompanyName.HYUNDAI;
     }
 
     public CompanyName getCompanyName() {
