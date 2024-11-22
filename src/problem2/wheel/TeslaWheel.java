@@ -7,9 +7,9 @@ import problem2.CompanyName;
  * Complete the below code that requires your implementation
  * If necessary, you can make your own methods or classes so that the corresponding tests are passed
  */
-public class HyundaiWheel extends Wheel{
-    public HyundaiWheel() {
-        super(CompanyName.HYUNDAI);
+public class TeslaWheel extends Wheel{
+    public TeslaWheel() {
+        super(CompanyName.TESLA);
     }
 
 }
